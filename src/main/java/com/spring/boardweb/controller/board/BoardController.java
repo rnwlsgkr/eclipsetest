@@ -66,7 +66,7 @@ public class BoardController {
 		mv.addObject("board", board);
 		mv.addObject("fileList", fileList);
 		
-		return mv;
+		return mv; 
 	}
 	
 	@GetMapping("/insertBoard")
